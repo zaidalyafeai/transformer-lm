@@ -15,7 +15,7 @@ import torch.distributed
 import torch.backends.cudnn as cudnn
 import torch.multiprocessing as mp
 from torch import nn, optim
-from tqdm.notebook import tqdm
+import tqdm
 import sentencepiece as spm
 
 from .fire_utils import only_allow_defined_args, get_defined_args
