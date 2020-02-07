@@ -6,3 +6,4 @@ numpy==1.17.3
 sentencepiece==0.1.8
 torch==1.3.0
 tqdm==4.36.1
+pyarabic
